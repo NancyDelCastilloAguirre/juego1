@@ -1,0 +1,41 @@
+* Fix user-agent */
+
+* {
+  box-sizing: border-box;
+}
+div {
+  margin: 0 0 1rem 0;
+  line-height: 1.5 !important;
+  font-size: 1rem;
+}
+
+html {
+  
+  background-color: #131316;
+}
+
+html,
+input {
+  font-family: Verdana;
+  color: #000000;
+  
+}
+
+.page {
+
+  position: top; 
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: #131316;
+    padding: 20px;
+    border-radius: 0px;
+    border: 1px solid black;
+  box-shadow: 10px 10px 0px 0px var(--color-alt);
+  
+  
+}
+
+
+
